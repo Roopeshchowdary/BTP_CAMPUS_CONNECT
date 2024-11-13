@@ -61,3 +61,7 @@ yarn dev
 
 
 The app will be available at `http://localhost:5173` by default.
+
+The website is deployed at `https://campusconnect-five.vercel.app/` hosted by vercel.
+
+## Happy connecting on `Campus Connect`!

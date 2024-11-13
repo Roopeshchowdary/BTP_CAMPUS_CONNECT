@@ -1,0 +1,34 @@
+.profile-judge {
+  display: flex;
+  align-items: center;
+}
+
+.profile-type {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.progress-bar {
+  background-color: #ccc;
+  height: 20px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.progress {
+  height: 100%;
+  transition: width 0.5s ease-in-out;
+}
+
+.red .progress {
+  background-color: #df1818;
+}
+
+.green .progress {
+  background-color: #34e834;
+}
+
+.orange .progress {
+  background-color: #fd8834;
+}

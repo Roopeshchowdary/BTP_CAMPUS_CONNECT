@@ -1,0 +1,79 @@
+.top {
+  background-color: #000;
+}
+
+.horizontal-bar {
+  width: 90%;
+  height: 4px;
+  background-color: black;
+  margin-top: 20px;
+}
+
+.blog-text-data {
+  font-size: 28px;
+  text-align: left;
+}
+.title {
+  margin-left: 0;
+  position: absolute;
+  left: 2;
+  left: 14%;
+  top: 100px;
+}
+.author-name {
+  display: flex;
+  flex-direction: row;
+}
+.blog-text-data {
+  text-align: justify;
+  margin-bottom: 28px;
+}
+
+ol {
+  list-style: lower-roman !important;
+}
+
+ul {
+  list-style: disc !important;
+}
+
+.blog-text-data h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: normal;
+  line-height: 1.2;
+}
+.blog-title {
+  font-size: 20px;
+  textshadow: 1px 4px, 1px 0px, 1px 1px;
+}
+
+.blog-text-data a {
+  color: blue;
+  text-decoration: underline; /* Optional: Remove underline */
+}
+.blog-text-data a:hover {
+  color: darkblue; /* Change to the desired hover color */
+}
+@media (min-width: 640px) {
+  /* Small screens (sm) and larger */
+  .blog-title {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Medium screens (md) and larger */
+  .blog-title {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Large screens (lg) and larger */
+  .blog-title {
+    font-size: 32px;
+  }
+}

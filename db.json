@@ -1,0 +1,70 @@
+{
+  "user": {
+    "name": "String",
+    "interests": ["String"],
+    "photoURL": "String",
+    "createdAt": "FirestoreTimestamp",
+    "updatedAt": "FirestoreTimestamp",
+    "education": {
+      "universityName": "String",
+      "yearOfStudy": "Integer"
+    },
+    "links": {
+      "github": "String",
+      "linkedin": "String",
+      "twitter": "String"
+    }
+  },
+
+  "blogs": {
+    "authorId": "<UserDocumentId>",
+    "content": "HTML",
+    "createdAt": "FirestoreTimestamp",
+    "readTime": "Integer",
+    "shortDescription": "String",
+    "tags": ["String"],
+    "title": "String"
+  },
+
+  "company": {
+    "name": "String",
+    "photoURL": "String",
+    "description": "String",
+    "employees": {
+      "min": "Integer",
+      "max": "Integer"
+    },
+    "links": {
+      "linkedin": "String",
+      "web": "String"
+    },
+    "listingIds": ["<ListingDocumentId>"]
+  },
+
+  "listing": {
+    "applicantIds": ["<UserDocumentId>"],
+    "createdAt": "FirestoreTimestamp",
+    "createdByUserId": "<UserDocumentId>",
+    "description": "String",
+    "equity": {
+      "min": "Integer",
+      "max": "Integer"
+    },
+    "partnership": {
+      "min": "Integer",
+      "max": "Integer"
+    },
+    "stipend": {
+      "min": "Integer",
+      "max": "Integer"
+    },
+    "title": "String",
+    "skills": ["String"],
+    "applicationMethods": {
+      "easyApply": "Boolean",
+      "email": "String",
+      "web": "String",
+      "whatsapp": "Integer"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.Intro {
+  background-color: #242424;
+  border-bottom: 100px;
+}
+
+.collaboration {
+  top: 115vh;
+  left: 10vw;
+}
+
+.yellow {
+  background-color: rgba(255, 232, 182, 1);
+}
+.red {
+  background-color: rgba(238, 94, 84, 0.78);
+}
+
+.blue {
+  background-color: rgba(0, 201, 184, 0.27);
+}

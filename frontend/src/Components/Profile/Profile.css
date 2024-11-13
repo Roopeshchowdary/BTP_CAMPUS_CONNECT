@@ -1,0 +1,234 @@
+* {
+  font-family: "Montserrat";
+}
+.profile-section {
+  background: #e8e8e8;
+  min-height: 88vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-container {
+  min-width: 500px;
+  border-radius: 12px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+.profile-header img {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.profile-header span {
+  font-size: 18px;
+  font-weight: bold;
+}
+.profile-section h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.profile-body {
+  padding: 8px 8px 15px 15px;
+  border-top: 1px solid #c4c2c2;
+  border-bottom: 1px solid #c4c2c2;
+}
+.row-first {
+  display: flex;
+  gap: 10px;
+}
+.column-first {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.column-second {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.column-second img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin-top: 5px;
+  object-fit: cover;
+  background: #000;
+}
+.user-pic {
+  margin: 25px 0 20px 0;
+}
+.user-education {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.user-name input {
+  max-width: 200px;
+}
+.interests {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.interests button {
+  padding: 5px 15px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.interests button.selected {
+  background-color: #f1c232;
+  color: #000;
+}
+
+.interests button:hover {
+  background-color: #d6d6d6;
+}
+.social-links {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.social-links img {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.linkedin,
+.github,
+.twitter {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 15px;
+}
+.btn {
+  padding: 3px 5px;
+  min-width: 100px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.previous-btn {
+  background: #f3f3f3;
+  border: 1px solid #919292;
+  color: #000;
+  margin: 15px 0px 15px 20px;
+}
+
+/* Next Button */
+.next-btn {
+  background: #f3f3f3;
+  border: 1px solid #919292;
+  color: #000;
+  margin: 15px 20px 15px 0;
+}
+.next-btn:hover,
+.previous-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.submit-btn {
+  background: #eaf4ee;
+  border: 1px solid #27ae60;
+  color: #195f36;
+  margin: 15px 20px 15px 0;
+}
+.submit-btn:hover {
+  background: #d3fae5;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-container {
+  border-radius: 10px;
+  border: 1px solid #000;
+  box-sizing: border-box; /* Include border in the total width and height */
+}
+
+.profile-footer {
+  height: 20px;
+  background: #000;
+  margin: 0; /* Remove top margin to avoid extra space */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-section {
+    padding: 0 20px;
+    min-height: 0;
+    height: 85vh;
+  }
+  .profile-container {
+    min-width: 100%;
+    padding: 20px 20px 10px 20px;
+  }
+
+  .profile-header span {
+    font-size: 16px;
+  }
+  .profile-section h2 {
+    font-size: 15px;
+  }
+  .row-first {
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+  .column-first {
+    width: 100%;
+    gap: 5px;
+  }
+
+  .column-second {
+    width: 100%;
+  }
+
+  .user-pic,
+  .user-education {
+    margin: 6px 0;
+  }
+  .user-name input {
+    max-width: none;
+  }
+  input {
+    width: 100%;
+  }
+
+  .column-second img {
+    height: 110px;
+    width: 110px;
+  }
+  .user-education {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .interests {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ... (rest of your CSS) */

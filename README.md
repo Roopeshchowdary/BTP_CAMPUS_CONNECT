@@ -11,8 +11,9 @@ Campus Connect is a platform designed to help students and professionals network
 
 ## Tech Stack
 
-- **Frontend**: Vite, React
-- **Backend**: Firebase (requires configuration)
+- **Frontend**: Vite, React, TypeScript, TailwindCSS, Zod, Radix-UI
+- **Backend**: Google Firebase (requires configuration)
+- **Hosting**: Vercel
   
 ## Prerequisites
 
